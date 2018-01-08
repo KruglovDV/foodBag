@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="rest-api:war exploded">
+    <output-path>$PROJECT_DIR$/target/rest-api-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="rest-api" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:3.4.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/rest-api-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="rest-api/web/Web" />
+    </root>
+  </artifact>
+</component>

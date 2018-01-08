@@ -1,0 +1,7 @@
+com/rest/api/resources/ItemsResource.class
+com/rest/api/model/POJOList.class
+com/rest/api/dal/IDataAccess.class
+com/rest/api/model/Item.class
+com/rest/api/RestApplication.class
+com/rest/api/resources/ListsResource.class
+com/rest/api/dal/DataAccess.class
