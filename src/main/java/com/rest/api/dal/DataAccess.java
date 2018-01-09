@@ -16,7 +16,7 @@ public class DataAccess implements IDataAccess {
 
     public static IDataAccess dao;
 
-    private static final String DB_NAME = "Dima";
+    private static final String DB_NAME = "feedbag";
 
     private static final String  LIST_COLLECTION_NAME = "Lists";
 

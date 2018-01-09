@@ -2,7 +2,6 @@ package com.rest.api;
 
 import com.rest.api.resources.ItemsResource;
 import com.rest.api.resources.ListsResource;
-import com.rest.api.resources.TestResource;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -16,7 +15,6 @@ public class RestApplication extends Application {
         final Set<Class<?>> classes = new HashSet<Class<?>>();
         classes.add(ItemsResource.class);
         classes.add(ListsResource.class);
-        classes.add(TestResource.class);
         return classes;
     }
 }
